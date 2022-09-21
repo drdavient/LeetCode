@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-using LeetCode;
+
+
 // [[1,2],[3,5],[6,7],[8,10],[12,16]]
 // [4,8]
 // new InsertInterval57().Insert(new int[][] { new int[] { 1, 2 }, new int[] { 3, 5 } , new int[] { 6, 7 }, new int[] { 8, 10 }, new int[] { 12, 16 }   }, new[] { 4, 8 });
@@ -39,4 +40,7 @@ using LeetCode;
 //Console.Write(LengthOfLongestSubstring3.Substring("aabaab!bb"));
 //MergeKSortedLists23.MergeKLists("[[1,4,5]]");
 
- 
+using NUnit.Framework;
+
+Assert.AreEqual(9, TGFindTotal.find_total(new[] {15,25,35}));
+Assert.AreEqual(10, TGFindTotal.find_total(new[] {8,8}));

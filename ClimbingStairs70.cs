@@ -36,6 +36,7 @@ public class Node
         {
             Count++;
         }
+    }
 
     public Dictionary<int, int> StepCounts;
 
